@@ -55,6 +55,12 @@ h6 {
 
 /* Arrow image indicating to scroll down */
 #scrollDown {
-  margin-top: 20%;
-  max-width: 50px;
+  opacity: 0.5;
+  margin-top: 5%;
+  max-width: 4%;
+  min-width: 4%;
+}
+
+#scrollDown:hover {
+  opacity: 1;
 }
